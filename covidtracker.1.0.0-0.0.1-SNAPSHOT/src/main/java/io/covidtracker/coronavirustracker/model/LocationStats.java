@@ -1,4 +1,4 @@
-package covidtracker.model;
+package io.covidtracker.coronavirustracker.model;
 
 import java.math.BigInteger;
 
@@ -8,6 +8,7 @@ public class LocationStats {
 	private double latitude;
 	private double longitude;
 	private BigInteger totalCases;
+	private int diffFromPrevDay;
 	public BigInteger getTotalCases() {
 		return totalCases;
 	}
@@ -37,6 +38,12 @@ public class LocationStats {
 	}
 	public void setLongitude(double longitude) {
 		this.longitude = longitude;
+	}
+	public int getDiffFromPrevDay() {
+		return diffFromPrevDay;
+	}
+	public void setDiffFromPrevDay(int diffFromPrevDay) {
+		this.diffFromPrevDay = diffFromPrevDay;
 	}
 	
 }

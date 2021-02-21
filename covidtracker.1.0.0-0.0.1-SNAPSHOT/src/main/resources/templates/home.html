@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
   <head>
-    <title>Good Virtual Grocery</title>
+    <title>CoronaVirusTracker Application</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
   </head>
-  <body>
-    <p th:text="${testName}"></p>
+<h1 style="color:green" class="text-center">Coronavirus Tracker Application</h1>
+<h4 style="color:grey;font-style:italic" class="text-center" >This application keeps track of the coronavirus cases all over the world</h4>
+  <body style="background-color:lightgreen">
+  <div class="jumbotron">
+  <h1 class="display-2" th:text = "${totalReportedCases}"></h1>
+  <p class="lead">cases reported till day.Any changes to the number would be updated after one day.</p>
+  <p style="color:red;font-weight:bold" th:text="${increasedCases}" class="display-4"></p>
+   <p class="lead">Above figure is the count of the increase in coronavirus cases from previous day.</p>
+</div>
+<div class="table table-dark table-bordered text-center">
+    <table>
+    	<tr>
+    	<td>Country/Region</td>
+    <td>Province/State</td>
+    <td>Latitude</td>
+    <td>Longitude</td>
+    <td>Total Cases Reported</td>
+    </tr>
+    <tr th:each="locationStat : ${locationStats}">
+    <td th:text = "${locationStat.region}"></td>
+    <td th:text = "${locationStat.state}"></td>
+    <td th:text = "${locationStat.latitude}"></td>
+    <td th:text = "${locationStat.longitude}"></td>
+    <td th:text = "${locationStat.totalCases}"></td>
+    </tr>
+    </table>
+    </div>
   </body>
+
 </html>

@@ -1,4 +1,4 @@
-C:\Users\somna\eclipse-workspace\CoronaVirusTracker\covidtracker.1.0.0-0.0.1-SNAPSHOT\src\main\java\covidtracker\application\App.java
-C:\Users\somna\eclipse-workspace\CoronaVirusTracker\covidtracker.1.0.0-0.0.1-SNAPSHOT\src\main\java\covidtracker\service\CoronaVirusDataService.java
-C:\Users\somna\eclipse-workspace\CoronaVirusTracker\covidtracker.1.0.0-0.0.1-SNAPSHOT\src\main\java\covidtracker\controllers\HomeController.java
-C:\Users\somna\eclipse-workspace\CoronaVirusTracker\covidtracker.1.0.0-0.0.1-SNAPSHOT\src\main\java\covidtracker\model\LocationStats.java
+C:\Users\somna\Downloads\coronavirus-tracker\src\main\java\io\covidtracker\coronavirustracker\model\LocationStats.java
+C:\Users\somna\Downloads\coronavirus-tracker\src\main\java\io\covidtracker\coronavirustracker\controller\HomeController.java
+C:\Users\somna\Downloads\coronavirus-tracker\src\main\java\io\covidtracker\coronavirustracker\services\CoronaVirusDataService.java
+C:\Users\somna\Downloads\coronavirus-tracker\src\main\java\io\covidtracker\coronavirustracker\CoronavirusTrackerApplication.java

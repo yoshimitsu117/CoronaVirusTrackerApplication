@@ -1,0 +1,4 @@
+io\covidtracker\coronavirustracker\model\LocationStats.class
+io\covidtracker\coronavirustracker\controller\HomeController.class
+io\covidtracker\coronavirustracker\CoronavirusTrackerApplication.class
+io\covidtracker\coronavirustracker\services\CoronaVirusDataService.class
